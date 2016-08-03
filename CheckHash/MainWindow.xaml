@@ -1,0 +1,25 @@
+﻿<Window x:Class="CheckHash.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheckHash"
+        mc:Ignorable="d"
+        Title="Hash Checker" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="selectLabel" Content="Select Target File:" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="filePickerButton" Content="Browse" HorizontalAlignment="Left" Margin="335,35,0,0" VerticalAlignment="Top" Width="75" Click="filePickerButton_Click"/>
+        <Button x:Name="runButton" Content="Run" HorizontalAlignment="Left" Margin="420,35,0,0" VerticalAlignment="Top" Width="75" Click="runButton_Click"/>
+        <TextBox x:Name="filePicketTextBox" HorizontalAlignment="Left" Height="22" Margin="10,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300"/>        
+
+        <CheckBox x:Name="md5CheckBox" Content="MD5" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="md5OutputTextBox" HorizontalAlignment="Left" Height="22" Margin="81,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsEnabled="False"/>
+
+        <CheckBox x:Name="sha1CheckBox" Content="SHA1" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="sha1OutputTextBox" HorizontalAlignment="Left" Height="22" Margin="81,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsEnabled="False"/>
+
+        <Label x:Name="outputLabel" Content="Output" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="outputTextBox" HorizontalAlignment="Left" Height="113" Margin="10,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="485" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+
+    </Grid>
+</Window>

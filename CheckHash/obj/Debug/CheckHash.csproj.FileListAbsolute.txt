@@ -1,0 +1,14 @@
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\bin\Debug\CheckHash.exe.config
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\CheckHash.csprojResolveAssemblyReference.cache
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\MainWindow.g.cs
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\App.g.cs
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\CheckHash_MarkupCompile.cache
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\CheckHash_MarkupCompile.lref
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\bin\Debug\CheckHash.exe
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\bin\Debug\CheckHash.pdb
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\MainWindow.baml
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\CheckHash.g.resources
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\CheckHash.Properties.Resources.resources
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\CheckHash.csproj.GenerateResource.Cache
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\CheckHash.exe
+c:\users\jason\documents\visual studio 2015\Projects\CheckHash\CheckHash\obj\Debug\CheckHash.pdb
