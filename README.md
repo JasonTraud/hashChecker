@@ -1,7 +1,7 @@
 # Hash Checker
 Simple WPF calculator and comparitor for MD5 and SHA1 cryptographic hashes.
 
-![Hash Checker](images/app.png)
+![ ](https://github.com/JasonTraud/hashChecker/blob/master/images/app.PNG)
 
 ## Currently Supported Cryptographic Hashes
 - MD5
