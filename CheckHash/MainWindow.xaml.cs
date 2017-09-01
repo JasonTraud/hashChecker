@@ -2,6 +2,7 @@
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 using System.IO;
 using System.Security.Cryptography;
 
@@ -70,6 +71,20 @@ namespace CheckHash
             if ((bool)md5CheckBox.IsChecked)
             {
                 md5OutputTextBox.Text = checkMD5(@filePicketTextBox.Text);
+                if (string.Equals(md5CompareToTextbox.Text, md5OutputTextBox.Text))
+                {
+                    md5ResultLabel.Content = "Pass";
+                    md5ResultLabel.Foreground = new SolidColorBrush(Colors.Green);
+                    outputTextBox.Text = "MD5 Check: Pass " + "\n\n" + outputTextBox.Text;
+                }
+                    
+                else
+                {
+                    md5ResultLabel.Content = "Fail";
+                    md5ResultLabel.Foreground = new SolidColorBrush(Colors.Red);
+                    outputTextBox.Text = "MD5 Check: FAIL " + "\n\n" + outputTextBox.Text;
+                }
+
                 outputTextBox.Text = "MD5: " + md5OutputTextBox.Text + "\n" + outputTextBox.Text;
             }
 
@@ -77,6 +92,19 @@ namespace CheckHash
             if((bool)sha1CheckBox.IsChecked)
             {
                 sha1OutputTextBox.Text = checkSHA1(@filePicketTextBox.Text);
+                if (string.Equals(sha1CompareToTextbox.Text, sha1OutputTextBox.Text))
+                {
+                    sha1ResultLabel.Content = "Pass";
+                    sha1ResultLabel.Foreground = new SolidColorBrush(Colors.Green);
+                    outputTextBox.Text = "SHA1 Check: Pass " + "\n\n" + outputTextBox.Text;
+                }
+
+                else
+                {
+                    sha1ResultLabel.Content = "Fail";
+                    sha1ResultLabel.Foreground = new SolidColorBrush(Colors.Red);
+                    outputTextBox.Text = "SHA1 Check: FAIL " + "\n\n" + outputTextBox.Text;
+                }
                 outputTextBox.Text = "SHA1: " + sha1OutputTextBox.Text + "\n" + outputTextBox.Text;
             }
         }
@@ -118,6 +146,11 @@ namespace CheckHash
             }
             fs.Close();
             return output;
+        }
+
+        private void sha1CompareToTextbox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

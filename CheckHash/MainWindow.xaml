@@ -5,21 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CheckHash"
         mc:Ignorable="d"
-        Title="Hash Checker" Height="350" Width="525">
-    <Grid>
+        Title="Hash Checker" Height="476.278" Width="525">
+    <Grid Margin="0,0,0,-21">
         <Label x:Name="selectLabel" Content="Select Target File:" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top"/>
         <Button x:Name="filePickerButton" Content="Browse" HorizontalAlignment="Left" Margin="335,35,0,0" VerticalAlignment="Top" Width="75" Click="filePickerButton_Click"/>
         <Button x:Name="runButton" Content="Run" HorizontalAlignment="Left" Margin="420,35,0,0" VerticalAlignment="Top" Width="75" Click="runButton_Click"/>
-        <TextBox x:Name="filePicketTextBox" HorizontalAlignment="Left" Height="22" Margin="10,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300"/>        
+        <TextBox x:Name="filePicketTextBox" HorizontalAlignment="Left" Height="22" Margin="10,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300"/>
 
-        <CheckBox x:Name="md5CheckBox" Content="MD5" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="md5OutputTextBox" HorizontalAlignment="Left" Height="22" Margin="81,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsEnabled="False"/>
+        <CheckBox x:Name="md5CheckBox" Content="MD5" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="md5OutputTextBox" HorizontalAlignment="Left" Height="22" Margin="179,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275" IsEnabled="False"/>
 
-        <CheckBox x:Name="sha1CheckBox" Content="SHA1" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="sha1OutputTextBox" HorizontalAlignment="Left" Height="22" Margin="81,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsEnabled="False"/>
+        <CheckBox x:Name="sha1CheckBox" Content="SHA1" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="sha1OutputTextBox" HorizontalAlignment="Left" Height="22" Margin="179,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275" IsEnabled="False"/>
 
-        <Label x:Name="outputLabel" Content="Output" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="outputTextBox" HorizontalAlignment="Left" Height="113" Margin="10,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="485" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+        <Label x:Name="outputLabel" Content="Output" HorizontalAlignment="Left" Margin="10,282,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="outputTextBox" HorizontalAlignment="Left" Height="113" Margin="10,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="485" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+        <TextBox x:Name="md5CompareToTextbox" HorizontalAlignment="Left" Height="23" Margin="179,112,0,0" TextWrapping="Wrap" Text="Enter hash to compare" VerticalAlignment="Top" Width="275"/>
+        <Label Content="Calculated" HorizontalAlignment="Left" Margin="81,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="Compare to" HorizontalAlignment="Left" Margin="81,112,0,0" VerticalAlignment="Top"/>
+        <Label Content="Result" HorizontalAlignment="Left" Margin="81,143,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="md5ResultLabel" Content="N/A" HorizontalAlignment="Left" Margin="179,143,0,0" VerticalAlignment="Top" FontWeight="Bold" Cursor="None" Foreground="#FFFFB900"/>
+        <TextBox x:Name="sha1CompareToTextbox" HorizontalAlignment="Left" Height="23" Margin="179,221,0,0" TextWrapping="Wrap" Text="Enter hash to compare" VerticalAlignment="Top" Width="275" TextChanged="sha1CompareToTextbox_TextChanged"/>
+        <Label Content="Calculated" HorizontalAlignment="Left" Margin="81,194,0,0" VerticalAlignment="Top"/>
+        <Label Content="Compare to" HorizontalAlignment="Left" Margin="81,221,0,0" VerticalAlignment="Top"/>
+        <Label Content="Result" HorizontalAlignment="Left" Margin="81,252,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="sha1ResultLabel" Content="N/A" HorizontalAlignment="Left" Margin="179,252,0,0" VerticalAlignment="Top" FontWeight="Bold" Cursor="None" Foreground="#FFFFB900"/>
 
     </Grid>
 </Window>

@@ -1,0 +1,14 @@
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\bin\x86\Debug\CheckHash.exe.config
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\bin\x86\Debug\CheckHash.exe
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\bin\x86\Debug\CheckHash.pdb
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\App.g.cs
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\CheckHash_MarkupCompile.cache
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\CheckHash_MarkupCompile.lref
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\MainWindow.baml
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\CheckHash.g.resources
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\CheckHash.Properties.Resources.resources
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\CheckHash.csproj.GenerateResource.Cache
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\CheckHash.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\CheckHash.exe
+C:\Users\Jason\Documents\GitHub\hashChecker\CheckHash\obj\x86\Debug\CheckHash.pdb
